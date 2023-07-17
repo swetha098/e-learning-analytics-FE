@@ -1,0 +1,192 @@
+.course-list {
+  display: flex;
+  margin-top: 50px;
+     
+  
+
+}
+body{
+  background-color: #f5f5f5;
+}
+h2{
+  text-align: center;
+}
+
+.course {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  margin-right: 20px;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.course:last-child {
+  margin-right: 0;
+}
+.course-inner {
+  text-align: center;
+}
+.course img {
+
+  width: 100%;
+
+  height: auto;
+
+  object-fit: cover;
+
+}
+.popup-message {
+
+  position: fixed;
+
+  bottom: 20px;
+
+  right: 20px;
+
+  background-color: #f8f8f8;
+padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+
+  z-index: 9999;
+
+}
+
+.popup-content {
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.popup-content p {
+  margin: 0;
+}
+
+/* nav */
+.header .logo {
+
+  font-size: 25px;
+
+  font-family: 'Sriracha', cursive;
+
+  color: #000;
+
+  text-decoration: none;
+
+  margin-left: 30px;
+
+}
+
+.nav-items {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#f5f5f5;
+  margin-right: 5px;
+  margin-left: 15px;
+  height: 60px;
+}
+
+.nav-items a {
+
+  text-decoration: none;
+
+  color: #000;
+
+  padding: 35px 20px;
+
+}
+
+.login-icon {
+
+  width: 24px; /* Adjust the width as per your requirements */
+
+  height: 24px; /* Adjust the height as per your requirements */
+
+  border: none; /* Remove the border */
+
+  outline: none;
+
+}
+
+.logo-icon{
+
+  width: 150px; /* Adjust the width as per your requirements */
+
+  height: 60px;
+
+}
+
+.login-container {
+  margin-left: -100px;
+  
+}
+
+
+
+
+.logo-container{
+
+  margin-left: -100px;
+
+}
+
+
+
+
+.login-button {
+
+  margin-left: 10px; /* Adjust the margin as needed */
+
+ 
+
+}
+
+.support-container{
+
+  margin-left: -70px;
+
+}
+
+.login-button:hover {
+
+  background-color: #0056b3;
+
+}
+
+/* searchcontainer */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+}
+
+.search-container form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.search-container input {
+  flex-grow: 1;
+  margin-right: 10px; /* Optional spacing between input and button */
+}
+
+
+.mycourse{
+background-image: url('https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=360');
+background-repeat: no-repeat;
+background-size: cover;
+} 
+/* .box {
+border: 1px solid black;
+padding: 20px;
+margin-bottom: 20px; /* Adjust the margin-bottom value to increase or decrease spacing */
+/* } */ 

@@ -1,0 +1,46 @@
+
+<header class="header">
+  <app-navigation></app-navigation>
+   
+ </header>
+ 
+ <main>
+   <div class="intro" *ngIf="course">
+     <h1>{{ course.courseName }}</h1>
+     <p>Learn Something New Today</p>
+     
+   </div>
+   <div class="about-me">
+     <div class="about-me-text">
+      <h3>Topics:</h3>
+      <ul>
+        <li *ngFor="let topic of topics">{{ topic.topicName }}</li>
+      </ul>
+    </div>
+    <div class="card" style="width: 50rem; height: 25rem;">
+      <img [src]="course?.courseImageUrl" alt="Course Image">
+      <!-- <img src= "https://www.simplilearn.com/ice9/free_resources_article_thumb/Top_Data_Science_Facts.jpg" alt="...">-->
+      <div class="card-body"> 
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a  class="btn btn-primary" (click)="changeButtonText()" [innerText]="buttonText"></a>
+
+      </div>
+    </div>
+   </div>
+ </main>
+ 
+ <footer id="footer" class="footer">
+
+<div class="bottom-links">
+  <div class="links">
+    <span>More Info</span>
+    <a href="#">Home</a>
+    <a href="#target-section">About</a>
+    <a href="#">Contact</a>
+    <p style="color: aliceblue;">+9325378</p>
+    <p style="color: aliceblue;">Knanaya,Kottayam,Kerala</p>
+  </div>
+   </div>
+ </footer>
+ 
